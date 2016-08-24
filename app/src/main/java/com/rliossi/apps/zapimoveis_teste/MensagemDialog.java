@@ -89,9 +89,6 @@ public class MensagemDialog extends DialogFragment {
                                 Toast.makeText(getContext(), "Não foi possível enviar a mensagem.", Toast.LENGTH_SHORT).show();
                             }
                         });
-
-
-                        //
                     }
                 });
             }
