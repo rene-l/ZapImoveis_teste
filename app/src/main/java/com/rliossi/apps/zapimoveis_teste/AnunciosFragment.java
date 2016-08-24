@@ -69,7 +69,6 @@ public class AnunciosFragment extends Fragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.menu, menu);
-
     }
 
     @Override
@@ -111,8 +110,6 @@ public class AnunciosFragment extends Fragment {
                             return true;
                         }
                         break;
-
-
                 }
                 return false;
             }
@@ -242,7 +239,6 @@ public class AnunciosFragment extends Fragment {
 
             TextView tipoImovel = (TextView) itemView.findViewById(R.id.tipo_imovel_textView);
             tipoImovel.setText(anuncio.getTipoImovel());
-
         }
 
         @Override
@@ -298,7 +294,6 @@ public class AnunciosFragment extends Fragment {
             if (parent.getChildAdapterPosition(view) == 0) {
                 return;
             }
-
             outRect.top = mSpacer.getIntrinsicHeight();
         }
     }
@@ -306,8 +301,8 @@ public class AnunciosFragment extends Fragment {
     private void setAnunciosAdapter(){
         mProgressBar.setVisibility(View.VISIBLE);
         if (mAnunciosAdapter == null) {
+            
             Call<List<Anuncio>> call = mRestManager.getServiceAPI().getAnuncios();
-
             call.enqueue(new Callback<List<Anuncio>>() {
                 @Override
                 public void onResponse(Call<List<Anuncio>> call, Response<List<Anuncio>> response) {
