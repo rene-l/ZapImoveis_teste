@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZapImoveis_teste</string>
+    <string name="dialog_title">Entre em contato com o vendedor:</string>
+    <string name="dialog_positive_button">Enviar</string>
+    <string name="mensagem_hint">Digite aqui sua mensagem:</string>
+    <string name="nome_contato_hint">Seu nome:</string>
+    <string name="email_contato_hint">Seu email:</string>
+    <string name="fone_contato_hint">Número de telefone:</string>
+    <string name="menu_organizar_title">Organizar por:</string>
+    <string name="offline_text">Verifique a sua conexão e tente novamente.</string>
+</resources>
