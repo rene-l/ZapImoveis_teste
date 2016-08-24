@@ -10,5 +10,5 @@ Originally made as a test for a recruiting company.
 
 Projeto simples que demonstra o uso de uma lista usando RecyclerView e ordenação dessa lista (por preço, etc),
 populada de um JSON usando Retrofit. Também
-demonstra o uso de picasso para carregamento de imagens, CoordinatorLayout na tela de detalhes, Floating Action Button e DialogFragment para o envio de uma mensagem.
+demonstra o uso de Picasso para carregamento de imagens, CoordinatorLayout na tela de detalhes, Floating Action Button e DialogFragment para o envio de uma mensagem.
 
